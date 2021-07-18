@@ -1,0 +1,47 @@
+* {
+  font-family: "Helvetica","sans-serif";
+  color: #333;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+h1,h2{
+  text-transform: capitalize;
+}
+nav{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #DDD;
+  overflow: auto;
+  padding: 20px 0;
+}
+nav > h3{
+  margin: 0 1rem;
+}
+.menu{
+  margin-left: 20px;
+}
+.menu > a{
+  border: 1px solid #CCC;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+.menu > a:hover{
+  background: #F0F0F0;
+}
+.container{
+  padding: 10px 20px;
+}
+.page-title{  
+  color: #000;
+  margin-bottom: 30px;
+}
+.user-detail{
+  border-bottom: 2px solid #333;
+  font-style: italic;
+}

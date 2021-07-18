@@ -1,0 +1,42 @@
+.article{
+  background: #F6F6F6;
+  padding: 30px 20px;
+}
+.article h1{
+  margin-top: 0;
+}
+.comments{
+  margin-top: 30px;
+}
+.comments-title{
+  border-bottom: 2px solid #333;
+  display: inline-block;
+  padding: 3px 0;
+}
+.comments-list{
+  border-bottom: 1px solid #ccc;
+}
+.author-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-more-post{
+  background: #3333FF;
+  border: 1px solid #0000FF;
+  border-radius: 5px;
+  padding: 5px 10px;  
+}
+.btn-more-post > a{
+  color: #FFF;
+  font-size: 0.9rem;
+}
+.post-list{
+  padding: 5px;
+}
+.post-list:nth-child(even){
+  background: #F6F6F6;
+}
+.post-list h3{
+  margin-top: 0;
+}
